@@ -26,5 +26,7 @@ int main(){
 	printf("\nThe number of Disk\n");
 	scanf("%d", &n);
 	towerOfHanoi(n, 'A', 'C', 'B');
+	/*getch(); was missing*/
+	getch();
 	return 0;
 }
