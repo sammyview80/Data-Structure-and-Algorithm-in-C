@@ -20,7 +20,7 @@ void main(){
 	int temp;
 	while(iteration<MAX){
 		minIndex = array[iteration];
-		for(count=0;count<MAX-2;count++){
+		for(count=0;count<MAX-1;count++){
 			if(array[count+1]<minIndex){
 				temp = minIndex;
 				minIndex = array[count+1];
